@@ -1,25 +1,25 @@
 ## Introduction to R ##
-##STAT 1200##
+## STAT 1200 ##
 
 rm(list = ls()) #Remove all objects from the workspace
 
 
-####Creates a new section in your script####
+#### Creates a new section in your script ####
 
-##RStudio User Interface##
+## RStudio User Interface ##
   # Console
   # Environment
   # History
   # Working Directory
 
-####Packages####
+#### Packages ####
 
-if(!require(readr)) install.packages("readr") #If the package readr is not installed, 
-                                              #then download readr
+if(!require(readr)) install.packages("readr") # If the package readr is not installed, 
+                                              # then download readr
 library(readr) #Initialize readr
 
 
-####Arithmetic Operations####
+#### Arithmetic Operations ####
 
 5+4
 
@@ -32,7 +32,7 @@ library(readr) #Initialize readr
 7%/%3
 
 
-####Assigning Variables####
+#### Assigning Variables ####
 
 
 x <- 4
@@ -43,18 +43,18 @@ Variable.1 <- y - x
 Variable.2 <- y/2
 
 
-####Relational Operators####
+#### Relational Operators ####
 
 
-x < y #less than
+x < y # less than
 
-Variable.1 == y #equal to
+Variable.1 == y # equal to
 
-Variable.2 != x #not equal to
+Variable.2 != x # not equal to
 
 
 
-####Base R Functions####
+#### Base R Functions ####
 
 exp(y)
 
@@ -63,14 +63,14 @@ sqrt(Variable.2)
 
 sin(x)
 
-abs(x-y) #absolute value
+abs(x-y) # absolute value
 
-Vector.1 <- c(1,2,4,5,6,7,3) #Create a vector
-mean(Vector.1) #mean
+Vector.1 <- c(1,2,4,5,6,7,3) # Create a vector
+mean(Vector.1) # mean
 
 
-####Getting Help####
+#### Getting Help ####
 
-?sqrt #function help
+?sqrt # function help
 
-?readr #readr package help
+?readr # readr package help
