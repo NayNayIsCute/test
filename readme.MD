@@ -7,7 +7,7 @@ rm(list = ls()) #Remove all objects from the workspace
 #### Creates a new section in your script ####
 
 ## RStudio User Interface ##
-  # Console
+- Console
   # Environment
   # History
   # Working Directory
