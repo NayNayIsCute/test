@@ -1,4 +1,4 @@
-##Introduction to R##
+## Introduction to R ##
 ##STAT 1200##
 
 rm(list = ls()) #Remove all objects from the workspace
