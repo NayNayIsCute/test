@@ -8,9 +8,9 @@ rm(list = ls()) #Remove all objects from the workspace
 
 ## RStudio User Interface ##
 - Console
-  # Environment
-  # History
-  # Working Directory
+- Environment
+- History
+- Working Directory
 
 #### Packages ####
 
